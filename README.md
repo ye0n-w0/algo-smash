@@ -1,96 +1,139 @@
 # Algo Smash Study 2025
 
----
 
-## 🏆 스터디 목표 및 진행 계획
+## 🔁 주간 스터디 루틴: P-D-A 프로세스
 
-- **1월:** 설계 능력+기초 C++ STL&알고리즘 집중 → 개인별 레포 활용, 개념/설계 중심
-- **2월:** 응용/심화, 실전 중심 팀 레포 본격 운영 → 발표+문풀 루틴
-
----
-
-## 📅 운영 일정(안)
-
-### 1월 — 기초/설계/개념 집중 (개인 스터디+레포)
-- 주 단위로 주요 알고리즘/자료구조 선정
-- 각자 공부한 내용/핵심 개념 요약 발표(발표 자료 링크 디스코드 30분 전까지 업로드)
-- 발표자료/문제 풀이 자유롭게 기록, 목표 자율 설정
-- 문제풀이량: 각자 난이도에 따라 (최소 기준 팀 내 논의)
-
-### 2월 — 발표 & 심화 문제풀이 (팀 스터디+레포)
-- 매주 공통 문제 선정·발표 및 코드 리뷰
-- 심화(Gold~Platinum) 문제 집중, 2월 말 모의 코테 준비
-- Google Sheet로 문제풀이/진척현황 공유
+| 단계 | 설명 |
+|------|------|
+| **Plan** | Pseudocode, 자료구조 선정/설계 (AI 없이) |
+| **Do** | 직접 구현 (코드/주석: 시간복잡도·핵심 아이디어) |
+| **Analyze** | 풀이법/대안 고찰, 블로그 정리 |
 
 ---
 
-## 🔁 주간 스터디 루틴: “P-D-A 프로세스”
+## 📋 기록 방식
 
-1. **Plan**: Pseudocode, 자료구조 선정/설계 (AI 없이)
-2. **Do**: 직접 구현(코드/주석: 시간복잡도·핵심 아이디어)
-3. **Analyze**: 풀이법/대안 고찰, 블로그 정리
+### 1️⃣ 기술블로그 (velog/tstory 등)
+주차별 개념, 발표정리, 시행착오, 코드 등 자유 기록
 
----
-
-## 🧑‍💻 기록 방식
-
-### ⭕ 기술블로그 (velog/tstory 등)
-- 주차별 개념, 발표정리, 시행착오, 코드 등 자유 기록
-    
-### ⭕ 개인 GitHub 사용 (필수)
+### 2️⃣ 개인 GitHub (필수)
 - 개인 포트폴리오용 푼 문제 모음
-- **백준 허브 chrom extension을 이용하여 백준 문제를 개인 레포지토리에 자동 커밋**
-    - 참고: https://github.com/BaekjoonHub/BaekjoonHub
+- **백준 허브 Chrome extension 활용** → 백준 문제 자동 커밋
+  - 참고: https://github.com/BaekjoonHub/BaekjoonHub
 
-### ⭕ 팀 GitHub 사용
-- 팀원별 폴더(각 주차별), 발표자료/코드/정리문서
-- PR시 설명/주석/의견 필수 (단순 코드제출X)
-
----
-
-## 📚 멤버별 기술 블로그/드라이브
-
-- [지민 tistory] : [https://wlals916.tistory.com/category/Algorithms](https://wlals916.tistory.com/category/Algorithms)
-- 구글 스프레드시트: https://docs.google.com/spreadsheets/d/14r3C0cXU-G9Y8dfsdsgMbn_6GCnyqB-VQGXYxlmlgNE/edit?usp=sharing
-    - **각자 자신의 이름 시트에 본인이 푼 모든 문제를 반드시 기록해야 합니다!**
-- (추가/수정 자유, shared_links/links.md에도 정리)
+### 3️⃣ 팀 GitHub
+- 팀원별 폴더(각 주차별) 구성: 발표자료/코드/정리문서
+- PR 시 **설명/주석/의견 필수** (단순 코드제출 금지)
 
 ---
 
-## 🙌 과제 제출법 및 PR 안내
+## 📚 공유 자료
 
-### 과제 제출 기본 원칙
-- 각 주차별 폴더(예: `Week02/`) 아래 **본인 이름(닉네임) 폴더**로 파일 업로드 후 PR 날리기
-- 예시: `Week02/홍길동/발표자료.md` 또는 `문제.cpp`
+- **구글 스프레드시트**: https://docs.google.com/spreadsheets/d/1nGGezA0f_NN7oewrrbOi8PWijs9mHuMmYjzL7IhpQ7Y/edit?gid=0#gid=0
+  - ⚠️ **각자 자신의 이름 시트에 푼 모든 문제를 반드시 기록**
 
-### 브랜치 전략 및 PR 절차
-1. **브랜치 생성**  
-   - 레포지토리 포크(fork) → 본인 작업 목적 브랜치 생성 (`feature/week02-홍길동` 등)
+- **팀 노션**: https://emerald-playground-cde.notion.site/2dcac42581848056ba81f099b94107b9?source=copy_link
+
+---
+
+## 🙌 GitHub 협업 워크플로우
+
+### 폴더 구조
+```
+Week01/
+ └── 박지민/
+      ├── BOJ_2178.cpp
+      ├── BOJ_7576.cpp
+      ├── BOJ_7569.cpp
+      └── 발표자료.md
+```
+
+### 과제 제출 절차
+
+1. **브랜치 생성**
+   - 레포지토리 포크(fork)
+   - 본인 작업 브랜치 생성 (`자기이름3자`)
+
 2. **커밋 및 푸시**
    - 과제 파일 추가/수정
-   - "feat : [Week02] 홍길동 - 발표자료/문제풀이" 등 형식으로 커밋
+   - 커밋 메시지: `[Week02] 홍길동 - 발표자료/문제풀이`
+
 3. **PR(Pull Request) 생성**
-   - `main` 브랜치로 PR 요청
-   - PR 템플릿과 예시에 맞춰 설명/리뷰 요청
-   - 1월: 발표 정리본 위주 / 2월: 발표 + 같이 푼 문제 코드
-   - PR 제목 예: `[Week02] 홍길동 - 발표 자료`
-4. **리뷰/피드백 반영 & 머지** (2월부터 적용)
-   - 코드/발표 설명 없이 올릴 경우 Merge 제한 
-   - 최소 한 명 이상 피드백 권장
+   - 현 레포지토리 `main` 브랜치로 요청
+   - PR 제목: `[Week02] 홍길동 - 발표 자료`
+   - **PR 템플릿 따라 설명 작성 필수**
+   - 관련 Issue 링크
+
+4. **리뷰 & 머지**
+   - 설명/코드리뷰 없으면 Merge 불가
+   - Squash & merge로 통합
 
 ---
 
-## 🙌 기타 참고
-- PR 시 설명/코드리뷰, 시간복잡도/아이디어 주석 필수
-- 단순 코드제출(설명없음) 금지!
+## 📌 Issue & PR 안내
+
+### [Issue] 문제 할당
+- **생성 주기**: 매주 일요일 밤
+- **이슈 제목**: `[Week N] 주제명`
+- **문제 구성**: 쉬운 거 2개(실버 4~5) + 어려운 거 2개(실버 1~골드 5)
+- **마감 기한** 및 링크 명시
+
+### [PR] 코드 제출
+- ✅ 설명/코드리뷰, 시간복잡도/아이디어 주석 필수
+- ❌ 단순 코드제출(설명 없음) 금지
+- ❌ 질문은 DM/단톡 대신 **Issue 댓글로만** (복습 자료화)
+
+---
+
+## 💡 핵심 원칙
+
+> **기록하는 습관, 완벽한 이해, 적극적인 상호 피드백이 핵심!**
+
+- PR 시 설명과 코드리뷰 필수
 - 팀원별 자유/자율적인 기록 독려
+- 질문/토론은 Issue에서 공개적으로
 
----
+## 🙋 Members
 
-> 기록하는 습관, 완벽한 이해, 적극적인 상호 피드백이 핵심!
+### 2기
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/ye0n-w0">
+          <img src="https://avatars.githubusercontent.com/ye0n-w0" width="100px;" alt="ye0n-w0"/>
+          <br /><sub><b>ye0n-w0</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/choisio2">
+          <img src="https://avatars.githubusercontent.com/choisio2" width="100px;" alt="choisio2"/>
+          <br /><sub><b>choisio2</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/soba1im">
+          <img src="https://avatars.githubusercontent.com/soba1im" width="100px;" alt="soba1im"/>
+          <br /><sub><b>soba1im</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/uuyeong">
+          <img src="https://avatars.githubusercontent.com/uuyeong" width="100px;" alt="uuyeong"/>
+          <br /><sub><b>uuyeong</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/zzmnxn">
+          <img src="https://avatars.githubusercontent.com/zzmnxn" width="100px;" alt="zzmnxn"/>
+          <br /><sub><b>zzmnxn</b></sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-## 🙋🏻‍♀️ Members
-
+### 1기
 <table>
   <tbody>
     <tr>
@@ -122,3 +165,4 @@
   </tbody>
 </table>
 
+---
